@@ -18,7 +18,18 @@ body {
   color: #828282;
   background: #0F172A;
 }
-
+.nama{
+  font-size: 55px;
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+  color:white;
+   font-family: "Sacramento", Arial, serif;
+}
+.keterangan{
+  margin-top:3%;
+  color:white;
+}
 #page {
   position: relative;
   overflow-x: hidden;
