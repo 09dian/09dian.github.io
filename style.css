@@ -1,8 +1,10 @@
 /* Mengatur tampilan dasar body */
-
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+body {
   background-color: #0f0f0f;
   font-family: Arial, sans-serif;
   color: #e8eaed;
@@ -20,7 +22,7 @@ body {
   gap: 30px;
 }
 .google-logo img {
-  width: 80px;
+  width: 100px;
 }
 
 .search-bar {
@@ -92,8 +94,121 @@ body {
   border-bottom: 1px solid #202124;
   height: 2px;
   width: 100%;
-  box-sizing: border-box;
 }
-.content {
-  margin: 20px 40px;
+.container {
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.main-content {
+  flex: 2;
+  min-width: 600px;
+}
+.search-divider {
+  border-bottom: 1px solid #3c4043;
+  margin: 20px 0;
+}
+
+.about-box {
+  flex: 1;
+  min-width: 300px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  height: fit-content;
+}
+.about-box h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #3c4043;
+  padding-bottom: 10px;
+}
+.about-box .deskripsi {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #bdc1c6;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.search-result {
+  margin-bottom: 25px;
+}
+a {
+  color: #8ab4f8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.search-result a .title:hover {
+  font-size: 20px;
+  color: #8ab4f8;
+  text-decoration: none;
+}
+.search-result .link {
+  font-size: 13px;
+  color: #9aa0a6;
+}
+.search-result .snippet {
+  font-size: 13px;
+  color: #bdc1c6;
+  margin-top: 5px;
+}
+.result-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #8b949e;
+  margin-bottom: 4px;
+}
+.title-name {
+  font-size: 16px;
+  color: #e8eaed;
+  font-weight: bold;
+}
+.title {
+  font-size: 24px;
+}
+
+.fa-github {
+  color: white;
+  font-size: 19px;
+  background-color: #24292e;
+  border-radius: 50%;
+  padding: 6px;
+}
+.fa-whatsapp {
+  color: #25d366;
+  font-size: 19px;
+  background-color: #24292e;
+  border-radius: 50%;
+  padding: 6px;
+}
+.fa-envelope {
+  color: #d93025;
+  font-size: 19px;
+  background-color: #24292e;
+  border-radius: 50%;
+  padding: 6px;
+}
+.info-item {
+  margin-bottom: 12px;
+}
+
+.info-item span {
+  font-size: 13px;
+  color: #9aa0a6;
+}
+
+.info-item strong {
+  color: #e8eaed;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  border-radius: 8px;
 }
