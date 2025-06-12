@@ -197,6 +197,13 @@ a:hover {
   border-radius: 50%;
   padding: 6px;
 }
+.fa-diagram-project{
+  color:rgb(67, 133, 54);
+  font-size: 19px;
+  background-color: #24292e;
+  border-radius: 50%;
+  padding: 6px;
+}
 .info-item {
   margin-bottom: 12px;
 }
